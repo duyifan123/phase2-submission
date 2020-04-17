@@ -5,7 +5,7 @@ import java.util.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-public class finalversion {
+public class Olympic {
 	 private static final String username = "yid33";
 	 private static final String password = "4377744";
 	 private static final String url = "jdbc:oracle:thin:@class3.cs.pitt.edu:1521:dbclass";
@@ -27,19 +27,19 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input fname £º");
+			 System.out.println("input fname ï¼š");
 			 String fname=j.nextLine();
-			 System.out.println("input lname£º");
+			 System.out.println("input lnameï¼š");
 			 String lname=j.nextLine();
-			 System.out.println("input nationality £º");
+			 System.out.println("input nationality ï¼š");
 			 String nationality=j.next();
-			 System.out.println("input birthcity£º");
+			 System.out.println("input birthcityï¼š");
 			 String birthcity=j.nextLine();
-			 System.out.println("input birthcountry£º");
+			 System.out.println("input birthcountryï¼š");
 			 String birthcountry=j.nextLine();
-			 System.out.println("input bithdate £º");
+			 System.out.println("input bithdate ï¼š");
 			 String birthdate= j.nextLine();
-			 System.out.println("input sport£º");
+			 System.out.println("input sportï¼š");
 			 String sport=j.next();
 			 
 			 SimpleDateFormat df = new SimpleDateFormat("yyyy-mon-dd HH:mm:ss");//set the initial format of time stamp
@@ -67,7 +67,7 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input id £º");
+			 System.out.println("input id ï¼š");
 			 int id=j.nextInt();
 			 String String="delete from USER_ACCOUNT where user_id=?";
 			 ps=connection.prepareStatement(String);
@@ -85,13 +85,13 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input sportId £º");
+			 System.out.println("input sportId ï¼š");
 			 int sport_id=j.nextInt();
-			 System.out.println("input venueId £º");
+			 System.out.println("input venueId ï¼š");
 			 int venue_id=j.nextInt();
-			 System.out.println("input datetime £º");
+			 System.out.println("input datetime ï¼š");
 			 String datetime=j.next();
-			 System.out.println("input gender £º");
+			 System.out.println("input gender ï¼š");
 			 int gender=j.nextInt();
 			
 			 Statement st = connection.createStatement();
@@ -121,15 +121,15 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input Olympic_id £º");
+			 System.out.println("input Olympic_id ï¼š");
 			 int  Oly_id=j.nextInt();
-			 System.out.println("input event_id £º");
+			 System.out.println("input event_id ï¼š");
 			 int event_id=j.nextInt();
-			 System.out.println("input participant_id £º");
+			 System.out.println("input participant_id ï¼š");
 			 int participant_id=j.nextInt();
-			 System.out.println("input position £º");
+			 System.out.println("input position ï¼š");
 			 int position=j.nextInt();
-			 System.out.println("input team_id £º");
+			 System.out.println("input team_id ï¼š");
 			 int team_id=j.nextInt();
 			 
 			 //String String="select team_id from TEAM_MEMBER where participant_id=? ";
@@ -161,17 +161,17 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input Olympic_city £º");
+			 System.out.println("input Olympic_city ï¼š");
 			 String  Oly_city=j.nextLine();
-			 System.out.println("input Olympic_year £º");
+			 System.out.println("input Olympic_year ï¼š");
 			 int  Oly_year=j.nextInt();
-			 System.out.println("input sport_id £º");
+			 System.out.println("input sport_id ï¼š");
 			 int sport_id=j.nextInt();
-			 System.out.println("input country£º");
+			 System.out.println("input countryï¼š");
 			 String country=j.nextLine();
-			 System.out.println("input team_name £º");
+			 System.out.println("input team_name ï¼š");
 			 String team_name=j.nextLine();
-			 System.out.println("input your coach_id£º");
+			 System.out.println("input your coach_idï¼š");
 			 int coach_id=j.nextInt();
 			 
 			 String String="select olympic_id frm OLYMPICS where host_city=? ";
@@ -216,9 +216,9 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input teamId £º");
+			 System.out.println("input teamId ï¼š");
 			 int team_id=j.nextInt();
-			 System.out.println("input eventId £º");
+			 System.out.println("input eventId ï¼š");
 			 int event_id=j.nextInt();
 			 
 			 String String2="insert into EVENT_PARTICIPATION values(?,?,?)";
@@ -241,15 +241,15 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input fname £º");
+			 System.out.println("input fname ï¼š");
 			 String fname=j.nextLine();
-			 System.out.println("input lname£º");
+			 System.out.println("input lnameï¼š");
 			 String lname=j.nextLine();
-			 System.out.println("input nationality £º");
+			 System.out.println("input nationality ï¼š");
 			 String nationality=j.nextLine();
-			 System.out.println("input birthcity£º");
+			 System.out.println("input birthcityï¼š");
 			 String birthcity=j.nextLine();
-			 System.out.println("input birthdate £º");
+			 System.out.println("input birthdate ï¼š");
 			 String birthdate= j.nextLine();
 			 
 			 Statement st = connection.createStatement();
@@ -281,9 +281,9 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input teamId £º");
+			 System.out.println("input teamId ï¼š");
 			 int team_id=j.nextInt();
-			 System.out.println("input participantId £º");
+			 System.out.println("input participantId ï¼š");
 			 int participant_id=j.nextInt();
 			 
 			 String String="insert into TEAM_MEMBER values(?,?)";
@@ -305,7 +305,7 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input user_id £º");
+			 System.out.println("input user_id ï¼š");
 			 int user_id=j.nextInt();
 			 
 			 String String="delete from USER_ACCOUNT where user_id=?";
@@ -327,7 +327,7 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input sport_name £º");
+			 System.out.println("input sport_name ï¼š");
 			 String sport_name=j.nextLine();
 			 
 			 String String="select st.dob,esp.event_id,esp.gender,esp.participant_id,esp.nationality\r\n" + 
@@ -366,11 +366,11 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input Olympic_city £º");
+			 System.out.println("input Olympic_city ï¼š");
 			 String  Oly_city=j.nextLine();
-			 System.out.println("input Olympic_year £º");
+			 System.out.println("input Olympic_year ï¼š");
 			 int  Oly_year=j.nextInt();
-			 System.out.println("input event_id £º");
+			 System.out.println("input event_id ï¼š");
 			 int  event_id=j.nextInt();
 			 
 			 String String="select olympic_id,participant_id,position,MEDAL_ID\r\n" + 
@@ -400,7 +400,7 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input Olympic_id £º");
+			 System.out.println("input Olympic_id ï¼š");
 			 int  Oly_id=j.nextInt();
 
 			 String String="select smeco.country_code, sum(smeco.points) as points,min(smeco.opening),\r\n" + 
@@ -438,9 +438,9 @@ public class finalversion {
 		 //getConnection();
 		 try {
 			 //Scanner j=new Scanner(System.in);
-			 System.out.println("input Olympic_id £º");
+			 System.out.println("input Olympic_id ï¼š");
 			 int  Oly_id=j.nextInt();
-			 System.out.println("input k £º");
+			 System.out.println("input k ï¼š");
 			 int  k=j.nextInt();
 
 			 
@@ -476,11 +476,11 @@ public class finalversion {
 	 public static void connectedAthletes(){
 		 //getConnection();
 		 try {
-			 System.out.println("input athlete_id £º");
+			 System.out.println("input athlete_id ï¼š");
 			 int  participant_id=j.nextInt();
-			 System.out.println("input Olympic_id £º");
+			 System.out.println("input Olympic_id ï¼š");
 			 int  Oly_id=j.nextInt();
-			 System.out.println("input n £º");
+			 System.out.println("input n ï¼š");
 			 int  n=j.nextInt();
 
 			 String String="select distinct s.participant_id, p.fname||' '||p.lname as fullname\r\n" + 
@@ -648,9 +648,9 @@ public class finalversion {
 //
 //		 String[] array = new String[2]; 
 //		 Scanner j=new Scanner(System.in);
-//		 System.out.println("input username £º");
+//		 System.out.println("input username ï¼š");
 //		 String username1=j.nextLine();
-//		 System.out.println("input password £º");
+//		 System.out.println("input password ï¼š");
 //		 String password1=j.nextLine();
 //		 array[0] = username1;
 //	     array[1] = password1;
